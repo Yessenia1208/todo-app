@@ -8,7 +8,7 @@ body {
 .container {
   max-width: 800px;
   margin: auto;
-  background: white;
+  background: "white";
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
@@ -25,4 +25,48 @@ h1 {
   border: 1px solid #ddd;
   border-radius: 8px;
   background-color: #fafafa;
+}
+
+.feature h2 {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+
+input[type="text"], input[type="radio"], input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 60%;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  border: none;
+  color: "blue";
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #eee;
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
